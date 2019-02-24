@@ -19,7 +19,7 @@ body, html {
 }
 
 .hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/30726327_10156255703526358_278479898446659584_n.jpg?_nc_cat=102&_nc_ht=scontent-sea1-1.xx&oh=49651dde15d0d18b77a8307ec60f67ef&oe=5CBCA294");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/30726327_10156255703526358_278479898446659584_n.jpg?_nc_cat=102&_nc_ht=scontent-sea1-1.xx&oh=11e6470374ec1e7f23844252ff0bb0a6&oe=5CE42F94");
 	height: 100%;
 	width: 100%;
 	background-position: center;
