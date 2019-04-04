@@ -5,13 +5,15 @@
 }
 
 body {
-	max-width: 1200px;
+	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #202121;
 	color: white;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	padding: 1em;
+	padding-top: 0em;
+	padding-bottom: 0em;
 }
 
 body, html {
@@ -73,11 +75,11 @@ section {
 }
 
 section img {
-	width: 500px;
+	max-width: 500px;
 }
 
 aside img {
-	width: 550px;
+	max-width: 550px;
 }
 
 aside {
@@ -86,6 +88,13 @@ aside {
 	clear: inherit;
 	padding-top: 5em;
 }
+
+aside li {
+	color: white;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 55%;
+}
+	
 
 aside img {
 	padding-top: 6em;
@@ -99,5 +108,4 @@ footer {
    margin: 0 auto;
    clear: both;
    width: 100%;
-   height: 100%;
 }
