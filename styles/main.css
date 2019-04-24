@@ -39,6 +39,9 @@ body, html {
     color: white;
 }
 
+#nav li{
+	list-style: none;
+}
 
 h1{
 	font-size: 450%;
@@ -57,48 +60,42 @@ a {
 }
 
 img  {
-	padding-top: 5em;
-	padding-bottom: 1em;
+	padding-top: 3em;
+	padding-bottom: .5em;
+
 }
 
-p {
+#page1 h2 {
+	-webkit-column-break-before: always;
+	break-before: column;
+}
+
+#page1 p {
 	color: white;
 	padding-top: 1em;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 120%;
 }
 
-section {
-	float: left;
-	width: 50%;
-	clear: both;
-}
-
-section img {
-	max-width: 500px;
-}
-
-aside img {
-	max-width: 550px;
-}
-
-aside {
-	float: right;
-	width: 40%;
-	clear: inherit;
-	padding-top: 5em;
-}
-
-aside li {
+#page2 p {
 	color: white;
+	padding-top: 1em;
 	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 120%;
+}
+
+#columns {
+	column-count: 2;
+	column-gap: 4em;
+}
+
+main li {
 	font-size: 55%;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 	
 
-aside img {
-	padding-top: 6em;
-}
+
 
 footer {
    padding: 2em;
@@ -106,6 +103,5 @@ footer {
    color: white;
    text-align: center;
    margin: 0 auto;
-   clear: both;
    width: 100%;
 }
