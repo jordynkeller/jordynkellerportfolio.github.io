@@ -81,13 +81,6 @@ img  {
 	font-size: 120%;
 }
 
-#page2 p {
-	color: white;
-	padding-top: 1em;
-	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 120%;
-}
-
 #columns2 p {
 	color: white;
 	padding-top: 1em;
@@ -95,7 +88,8 @@ img  {
 	font-size: 120%;
 }
 
-#columns {
+
+@media (min-width: 600px){#columns {
 	column-count: 2;
 	column-gap: 4em;
 	-webkit-column-count: 2;
@@ -116,7 +110,7 @@ img  {
 	column-width: 200px;
 }
 
-	
+}
 
 main li {
 	font-size: 55%;
