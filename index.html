@@ -19,7 +19,18 @@
 	<style>
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Amatic+SC');
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</style> 
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+
 </head>
 
 <body>
@@ -53,7 +64,7 @@
 </p>
 <p>My curently skills include;</p>
 <ul>
-<li>Computer Languages such as; HTML, CSS, JavaScript, jQuery SQL and PHP</li>
+<li>Computer Languages such as; HTML, CSS, JavaScript, SQL and PHP</li>
 <li>Adobe Illustrator and Adobe Photoshop</li>
 <li>Experience working with WordPress</li>
 <li>Deployment of websites useing GitHub and Netlify</li>
@@ -67,62 +78,18 @@ To view more of my examples of my work and skills, visit my <a href="https://cod
 </div>
 <br>
 <br>
-<div id="columns2">
+
 <div id="page2">
 <a id="portfolio"></a>
 <h2><u> Projects</u></h2>
-<a href="http://bonsai.lcsc.edu/jjkeller3773/citpt101/midterm/index.html"><img src="images/honey.png.png" alt="Link to Elizabeth Park Honey Website" style="width:100%;"></a>
-<p><a href="http://bonsai.lcsc.edu/jjkeller3773/citpt101/midterm/index.html"><u>Elizabeth Park Honey Website</u></p></a>
-<p>With this project, I was to create a functioning website with a minimum of 4 pages, use HTML5 semantic elements, properly organize code with HTML elements properly nested, at least 1 external style sheet properly linked to each page, a minimum of at least one CSS style applied for padding, margin, border, width, color, background-color, and font-family, create relevant content related to subject, and include at least 1 heading, 1 list, 1 paragraph and 1 image per page.
-This project was extensive and showcases my ability and experience with creating a functional, multipage website.
-</p>
-<br>
-</div>
-<a href="https://codepen.io/JordynKeller/pen/oQXxKq"><img src="images/greyswebsite.png" alt="Link to Grey's Anatomy webpage example" style="width:100%;"></a>
-<p><a href="https://codepen.io/JordynKeller/pen/oQXxKq"><u>CSS Framework Example</u></p></a>
-<p> This is an example of a web page I created using a CSS Framework. The primary goal of this project was to give me the ability and practice creating and using a CSS framework to develop a website.
-With this project, I was to create a one-page website using a CSS Framework of my choosing and to use at least 5 components of my choice (buttons, grids, cards, modals, etc). 
-This projec showcases my experience with using a CSS Framework to create a website.
-</p>
-<br>
-<a href="https://codepen.io/JordynKeller/pen/gyrgXa"><img src="images/mars.png" alt="Link to JavaScript Madlib example" style="width:100%;"></a>
-<p><a href="https://codepen.io/JordynKeller/pen/gyrgXa"><u>Mars Age - JavaScript</u></p></a>
-<p> This is an example of a web page I created using HTML and JavaScript. The primary goal of this project was to get the user's age from and convert it to their Mars age.
-With this project, I use promps via JavaScript to get the user's birthday, then use a formula and JavaScript functions to convert the age to Mars years. 
-This project showcases my ability to take user input data, use a function to convert the date, then output the date for the user.
-</p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div id="break">
-</div>
-<br>
-<br>
 
-<a href="https://romanwebsite.netlify.com/"><img src="images/roman.png.png" alt="Link to Roman Website" style="width:100%;"></a>
-<p><a href="https://romanwebsite.netlify.com/"><u>Roman's Website (personal project)</u></p></a>
-<p> This is a project that I completed as my final project for CITPT-111 - Web Development Fundamentals. This is a static, mulity page website that has properly oganized code with HTML elements properly nested.  
-This website shows my ability to make creative, unique, simple websites. 
-</p>
-<br>
-<br>
-<br>
-<br>
-<a href="https://codepen.io/JordynKeller/pen/aRxXjb"><img src="images/deathcabwebsite.png" alt="link to Death Cab webpage example" style="width:100%;"></a>
-<p><a href="https://codepen.io/JordynKeller/pen/aRxXjb"><u>CSS Example - SASS & HTM</u></p></a>
-<p>This is an example of using SASS and HTM to create a simple website, quickly and efficiently.</p>
-With this project, I was to use SASS as my CSS processor. I also had to employ as much HTML as needed to ensure all of the following SCSS functionality were met; variables, nesting, mixins, extend/inheritance, and operatiors.
-This project showcases my experience with using CSS processors such as SASS.
-</p>
-<br>
-<br>
-<a href="https://codepen.io/JordynKeller/pen/xeVgwz"><img src="images/madlib.png" alt="Link to JavaScript Madlib example" style="width:100%;"></a>
-<p><a href="https://codepen.io/JordynKeller/pen/xeVgwz"><u>Mad Lib - JavaScript</u></p></a>
-<p> This is an example of a web page I created using a HTML and JavaScript to create a simple Mad Lib. Thise project was create to show my creativity when using JavaScript to make a fun application.  
-</p>
-</div>
+<div class="slider">
+    <div><a href="http://bonsai.lcsc.edu/jjkeller3773/citpt101/midterm/index.html"><img src="images/honey.png.png" alt="Link to Elizabeth Park Honey Website" style="width:100%;"></div>
+    <div><a href="https://codepen.io/JordynKeller/pen/oQXxKq"><img src="images/greyswebsite.png" alt="Link to Grey's Anatomy webpage example" style="width:100%;"></div>
+    <div><a href="https://codepen.io/JordynKeller/pen/gyrgXa"><img src="images/mars.png" alt="Link to JavaScript Madlib example" style="width:100%;"></div>
+    <div><a href="https://romanwebsite.netlify.com/"><img src="images/roman.png.png" alt="Link to Roman Website" style="width:100%;"></div>
+    <div><a href="https://codepen.io/JordynKeller/pen/aRxXjb"><img src="images/deathcabwebsite.png" alt="link to Death Cab webpage example" style="width:100%;"></div>
+    <div><a href="https://codepen.io/JordynKeller/pen/xeVgwz"><img src="images/madlib.png" alt="Link to JavaScript Madlib example" style="width:100%;"></div>
 </div>
 </main>
 
